@@ -1,0 +1,27 @@
+{
+  "name": "gotur-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "prebuild": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "postbuild": "move frontend\\build backend\\src\\public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BesirVelioglu/gotur-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18 <19"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BesirVelioglu/gotur-react/issues"
+  },
+  "homepage": "https://github.com/BesirVelioglu/gotur-react#readme",
+  "description": ""
+}
